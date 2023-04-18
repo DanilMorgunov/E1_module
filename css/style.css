@@ -1,0 +1,38 @@
+.navigation{
+    float: right;
+    height: 100%;
+}
+ 
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    background-color: #101010;
+}
+ 
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: white;
+}
+ 
+.navigation a:hover{
+    background-color: gray;
+    color: #101010;
+}
+
+.rounded-img {
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    padding: 0.6rem;
+}
+
+p img {
+    width: 10%;
+    float: left;
+    shape-outside: url(https://koshka.top/uploads/posts/2021-12/thumbs/1640111562_1-koshka-top-p-kot-za-kompyuterom-1.jpg);
+    shape-margin: 50px;
+}
+
